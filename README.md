@@ -1,10 +1,11 @@
 # Disable The Official League Of Legends Presence
 
-## Summary
+## Summary 📜
 League-RPC-Disabler is a Windows application designed to disable the official League of Legends Rich Presence.
 
+## Description 📖
 This application detects the launch of League of Legends. Upon detection, it modifies a specific JSON configuration file to disable the discord plugin.
-This is something users want to do, especially when running different league-RPC programs, like: [league-rpc-linux](https://github.com/its-haze/league-rpc-linux)
+This is something users want to do, especially when running software that enhances the rich presence from leage, such as: [league-rpc-linux](https://github.com/its-haze/league-rpc-linux)
 
 <!---
 Add image of league-rpc-linux here
@@ -30,13 +31,22 @@ and remove this entry:
 Basically, all this program does, is to automate this process.
 
 
-## Installation
+## Installation 🚀
 
-### Releases
-// TODO: Add releases page, and instructions for installing the latest version.
+1. Go to the [releases page](https://github.com/Its-Haze/league-rpc-disabler/releases/latest)
+2. Download **league-rpc-disabler.exe**
+3. Run the program
 
 
-### Local Development Installation
+## Usage 🖱️
+
+Just double click on the exe file, it's that simple!
+
+The application will sit in the system tray and monitor for the League of Legends client process. When it detects the client, it will automatically modify the JSON configuration as specified.
+
+---
+
+## Local Development Installation 🛠️
 To install League RPC Disabler, you need to have Go installed on your machine:
 
 1. Install Go (if not installed): [https://golang.org/dl/](https://golang.org/dl/)
@@ -53,17 +63,13 @@ To install League RPC Disabler, you need to have Go installed on your machine:
    $env:GO111MODULE="on"; go build -ldflags "-H=windowsgui" -o "league-rpc-disabler.exe" ./cmd
    ```
 
-## Usage
 
-Just double click on the exe file, it's that simple!
-
-The application will sit in the system tray and monitor for the League of Legends client process. When it detects the client, it will automatically modify the JSON configuration as specified.
 
 <!---
 Add image of tray icon here
 -->
 
-## Contributing
+## Contributing 🤝
 
 Contributions are what make the open-source community such a fantastic place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -73,6 +79,6 @@ Contributions are what make the open-source community such a fantastic place to 
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
+## License ©️
 
 Distributed under the MIT License. See `LICENSE` for more information.
