@@ -6,7 +6,9 @@ League-RPC-Disabler is a Windows application designed to disable the official Le
 This application detects the launch of League of Legends. Upon detection, it modifies a specific JSON configuration file to disable the discord plugin.
 This is something users want to do, especially when running different league-RPC programs, like: [league-rpc-linux](https://github.com/its-haze/league-rpc-linux)
 
-<!--> Add image of league-rpc-linux here <!-->
+<!---
+Add image of league-rpc-linux here
+-->
 
 You could do all of this manually, but you would have to do it everytime you open league...
 So having this in the background just saves a couple of minutes for you.
@@ -56,8 +58,10 @@ To install League RPC Disabler, you need to have Go installed on your machine:
 Just double click on the exe file, it's that simple!
 
 The application will sit in the system tray and monitor for the League of Legends client process. When it detects the client, it will automatically modify the JSON configuration as specified.
-<!--> Add image of tray icon here <!-->
 
+<!---
+Add image of tray icon here
+-->
 
 ## Contributing
 
