@@ -1,4 +1,4 @@
-# Disable The Native Discord Rich Presence of League of Legends
+# Disable The Official League Of Legends Presence
 
 ## Summary
 League-RPC-Disabler is a Windows application designed to disable the official League of Legends Rich Presence.
@@ -29,7 +29,6 @@ Basically, all this program does, is to automate this process.
 
 
 ## Installation
-
 
 ### Releases
 // TODO: Add releases page, and instructions for installing the latest version.
