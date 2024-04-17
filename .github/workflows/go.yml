@@ -22,4 +22,4 @@ jobs:
         go-version: '1.22.2'
 
     - name: Build
-      run: $env:GO111MODULE="on"; go build -ldflags "-H=windowsgui" -o "league-rpc-disabler.exe" ./...
+      run: $env:GO111MODULE="on"; go build -ldflags "-H=windowsgui" -o "league-rpc-disabler.exe" .\cmd\ .\assets\
