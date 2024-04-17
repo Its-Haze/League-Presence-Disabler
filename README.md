@@ -1,5 +1,7 @@
 # Disable The Official League Of Legends Presence
 
+[![Go](https://github.com/Its-Haze/league-rpc-disabler/actions/workflows/go.yml/badge.svg)](https://github.com/Its-Haze/league-rpc-disabler/actions/workflows/go.yml)
+
 ## Summary 📜
 League-RPC-Disabler is a Windows application designed to disable the official League of Legends Rich Presence.
 
